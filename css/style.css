@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 .head {
-    background-color: darkorange;
+    background-color:rgb(202, 168, 116);
     display: flex;
-    justify-content:space-evenly;
-    align-items:center ;
+    justify-content:space-around;
+    align-items: center;
 
+}
+main {
+    font-family: "Winky Sans", sans-serif;
 }
 .head a {
     text-decoration:none;
@@ -11,20 +15,22 @@
 }
 .head img{
     width: 200px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items:center ;
-    padding: 20px;
+align-items: normal;
+    
 }
-
+.h14 {
+    text-align: center;
+    background-color:rgb(180, 154, 147);
+    padding: 10px;
+}
 .h11 {
     text-align: center;
-    background-color:khaki;
+    background-color:rgb(233, 208, 201);
     padding: 10px;
 }
 
 .info {
-    background-color:blanchedalmond;
+    background-color:rgb(233, 208, 201);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -55,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(255, 195, 146) ;
+    background-color:rgb(189, 113, 72) ;
 }
 .card{
     margin: 20px;
@@ -63,16 +69,88 @@
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 5px 10px;
-    background-color:rgb(136, 105, 66);
-    color: white;
+    background-color:rgb(233, 208, 201);
+    color: rgb(0, 0, 0);
 }
 .card img {
     width: 300px;
 }
 .card:hover{
-    background-color: rgb(153, 128, 110);
+    background-color: rgb(207, 180, 161);
     transform: scale(1.05)
 }
 .h12 {
-    color: chartreuse;
+    color: rgb(75, 74, 74)
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 40px;
+}
+.tarjeta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 123, 0) ;
+}
+.card2{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px;
+    background-color:rgb(233, 208, 201);
+    color: rgb(0, 0, 0);
+}
+.card2 img {
+    width: 300px;
+}
+.card2:hover{
+    background-color: rgb(207, 180, 161);
+    transform: scale(1.05)
+}
+.h13 {
+    color: rgb(75, 74, 74);
+    font-family: "Winky Sans", sans-serif;
+}
+.info2 {
+
+        background-color:rgb(233, 208, 201);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        bottom: unset;
+        overflow: hidden;
+        padding: 20px;
+}
+.info2 img{
+        float: left;
+        width: 500px;
+}
+.historia img{
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.historia{
+    overflow: auto;
+    margin-bottom: 30px;
+    font-family: "Winky Sans", sans-serif;
+    font-size: 40px;
+    background-color: bisque;
+    padding: 30px;
+}
+.button{
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.button a{
+    color: white;
+    text-decoration: none;
 }
